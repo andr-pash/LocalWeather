@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta name="author" content="CHANGE-ME">
+    <meta name="description" content="CHANGE-ME">
+
+    <!-- Mobile Stuff -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="CHANGE-ME">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon.png">
+
+    <!-- Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="CHANGE-ME">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Windows 8 -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+
+
+    <meta name="theme-color" content="#000000">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>Weather Me!</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+
+<body>
+   <div class="overlay ">
+       <div class="overlaybox">Hello! <br> Let's find out whether to go out or not! <br><br> Connecting to the weather gods... </div>
+   </div>
+    <!-- Insert your HTML here -->
+    <div class="container">
+        <div class="header">
+            <h1>Weather Me!</h1>
+            <h3>No need for windows to check if it's raining.</h3>
+        </div>
+        <div class="infowrapper">
+
+            <div class="info"><span class="discr">Location:</span>
+                <br><span id="location">Munich</span></div>
+            <div class="info"><span class="discr">Temperature:</span>
+                <br><span id="temp">0</span><span id="unittemp"> °C</span></div>
+            <div class="info"><span class="discr">Humidity:</span>
+                <br><span id="humid">25</span><span> %</span></div>
+            <div class="info"><span class="discr">Wind Speed:</span>
+                <br><span id="wind">25</span><span id="unitwind"> m/s</span></div>
+            <p class="disctext">You are experiencing <span id="discweather"></span> in <span id="discloc"></span> right now.</p>
+        </div>
+                <div>
+            <button id="switch">Imperialize Me!</button>
+        </div>
+        <div class="footerwrap">
+            <footer><ul class="footer">
+                <li><a href="http://github.com/andr-pash">GitHub</a></li>
+                <li><a href="">FreeCodeCamp</a></li>
+                <li id="footer-name">Andreas Pashalides</li>
+            </ul></footer>
+        </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
