@@ -50,7 +50,6 @@ body {
     padding: 0;
     height: 100%;
     background: #FFF;
-    background-size: cover;
 }
 h1 {
     margin: 0;
@@ -111,30 +110,37 @@ h1 {
 
 .thunder {
     background: url(img/thunderstorm2.jpg) center center fixed no-repeat;
+    background-size: cover;
 }
 
 .rain {
     background: url(img/rain.jpg) center center fixed no-repeat;
+    background-size: cover;
 }
 
 .snow {
     background: url(img/snowy2.jpg) center center fixed no-repeat;
+    background-size: cover;
 }
 
 .fog {
     background: url(img/foggy.jpg) center center fixed no-repeat;
+    background-size: cover;
 }
 
 .clearsky {
     background: url(img/clearSky.jpg) center center fixed no-repeat;
+    background-size: cover;
 }
 
 .partcloudy {
     background: url(img/partlyCloudy.jpg) center center fixed no-repeat;
+    background-size: cover;
 }
 
 .cloudy {
     background: url(img/cloudy.jpg) center center fixed no-repeat;
+    background-size: cover;
 }
 .overlay {
     height: 100%;
