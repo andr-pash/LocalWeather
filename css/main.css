@@ -1,7 +1,7 @@
 .header {
     text-align: center;
     margin: 0;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 .header * {
     color: white;
@@ -11,7 +11,7 @@
     min-height: 200px;
     height: 20%;
     text-align: center;
-    margin: 10% auto 0 auto;
+    margin: 8% auto 0 auto;
     padding-top: 30px;
     background-color: rgba(0,0,0,0.4);
     border-radius: 10px;
@@ -50,6 +50,7 @@ body {
     padding: 0;
     height: 100%;
     background: #FFF;
+    overflow: scroll;
 }
 h1 {
     margin: 0;
@@ -81,12 +82,14 @@ h1 {
     color:#374837
 }
 
+
 .footer *{
     list-style-type: none;
     color: white;
     text-decoration-line: none;
     font-size: 0.9em;
     font-weight: 100;
+    display: block;
 }
 .footer > li {
     display: inline-block;
@@ -134,7 +137,7 @@ h1 {
 }
 
 .partcloudy {
-    background: url(img/partlyCloudy.jpg) center center fixed no-repeat;
+    background: url(img/partlyCloudy.jpg) center center no-repeat;
     background-size: cover;
 }
 
